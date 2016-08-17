@@ -1,0 +1,19 @@
+img {
+  height: 400px;
+  width: auto;
+  margin: 0px;
+  /*position: absolute;*/
+  /*top: 0;
+  left: 0;*/
+}
+.col-sm-6{
+  margin: 0;
+}
+
+#entries h5 {
+  color: white;
+}
+
+#entries:hover h5 {
+  color: black;
+}

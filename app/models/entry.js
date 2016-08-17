@@ -5,5 +5,5 @@ export default DS.Model.extend({
   title: DS.attr(),
   text: DS.attr(),
   teaser: DS.attr(),
-  imgUrl: DS.attr()
+  imgURL: DS.attr()
 });

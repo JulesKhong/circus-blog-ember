@@ -1,1 +1,5 @@
-{{outlet}}
+<ul>
+  {{#each model.entries as |entry|}}
+  {{entry-tile entry=entry}}
+  {{/each}}
+</ul>
