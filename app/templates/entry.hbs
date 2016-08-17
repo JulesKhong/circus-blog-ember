@@ -1,1 +1,15 @@
-{{outlet}}
+<div class="container">
+
+  <div class="col-sm-6">
+    <h1>{{model.title}}</h1>
+    <h4>{{model.author}}</h4>
+    <p>
+      {{model.text}}
+    </p>
+  </div>
+
+  <div class="col-sm-6">
+    <img class="entry-image" src={{model.imgURL}} alt="" >
+
+  </div>
+</div>

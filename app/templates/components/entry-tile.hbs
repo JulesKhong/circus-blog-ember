@@ -1,7 +1,6 @@
-
-  <div id="entries" class="col-sm-6">
-    <h5>
-      {{entry.title}}
-    </h5>
-    <p><img src={{entry.imgURL}} alt={{entry.title}}></p>
-  </div>
+<div id="entries" class="col-sm-6">
+  <h5>
+    {{entry.title}}
+  </h5>
+  <p>{{#link-to 'entry' entry.id}}<img src={{entry.imgURL}} alt={{entry.title}}>{{/link-to}}</p>
+</div>
