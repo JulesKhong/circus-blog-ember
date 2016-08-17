@@ -1,0 +1,28 @@
+{ "entries": [{
+    "author": "Alyssa Diltz",
+    "title": "Russian Rolls",
+    "text": "It was a dark and stormy Tuesday...",
+    "imgURL": "http://nightflightaerial.com/wp-content/uploads/2013/08/shersten_bio.jpg",
+    "teaser": "It was a dark and stormy Tuesday..."
+  },
+  {
+    "author": "Veruca Salt",
+    "title": "Estate",
+    "text": "Here is the entry about the thing",
+    "imgURL": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13690613_1313859421975823_4726357658988583986_n.jpg?oh=5521a2ff8ab86833aa3eaeec81baecf9&oe=585690ED",
+    "teaser": "It was a dark and stormy Tuesday..."
+  }, {
+    "author": "Veruca Salt",
+    "title": "Estate",
+    "text": "Here is the entry about the thing",
+    "imgURL": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11012624_992265060801929_2970181083037159715_n.jpg?oh=c44fba885831363f473e662901b7a213&oe=585A1DD0",
+    "teaser": "It was a dark and stormy Tuesday..."
+    },
+    {
+    "author": "Veruca Salt",
+    "title": "Duo Trapeze",
+    "text": "Here is the entry about the thing",
+    "imgURL": "https://s-media-cache-ak0.pinimg.com/236x/77/9c/5c/779c5c0b04b0a417adcb1c781e17508e.jpg",
+    "teaser": "It was a dark and stormy Tuesday..."
+    }]
+}
