@@ -1,0 +1,18 @@
+{{#if updateCommentForm}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="userName">UserName</label>
+        {{input value=userName id="userName" placeholder=comment.userName}}
+      </div>
+      <div class="form-group">
+        <label for="text">Text</label>
+        {{input value=text id="text" placeholder=comment.text}}
+      </div>
+      <button class="btn btn-default" {{action 'update' comment}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-default"{{action 'updateCommentForm'}}>Update Comment</button>
+{{/if}}
+<button class="btn btn-danger"{{action 'deleteComment' comment}}>Delete</button>
