@@ -1,17 +1,7 @@
 <div class="container">
-
-  <div class="col-sm-6">
-    <h1>{{model.title}}</h1>
-    <h4>{{model.author}}</h4>
-    <p>
-      {{model.text}}
-    </p>
-  </div>
-
-  <div class="col-sm-6">
-    <img class="entry-image" src={{model.imgURL}} alt="" >
-
-  </div>
-{{update-entry update="update" entry=model}}
-{{delete-entry destroyEntry="destroyEntry" entry=model}}
+  {{entry-detail entry=model}}
+  {{update-entry update="update" entry=model}}
+  {{delete-entry destroyEntry="destroyEntry" entry=model}}
+  {{new-comment saveComment="saveComment" entry=model}}
+  {{comment-list entry=model}}
 </div>

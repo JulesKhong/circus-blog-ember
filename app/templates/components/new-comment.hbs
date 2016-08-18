@@ -1,0 +1,14 @@
+<div class="container">
+  <h3>New Comment</h3>
+    <form>
+      <div class="form-group">
+        <label for="userName">User Name</label>
+         {{input value=userName id="userName"}}
+      </div>
+      <div class="form-group">
+        <label for="text">Text</label>
+        {{input value=text id="text"}}
+      </div>
+      <button class="btn btn-default" {{action 'saveComment'}}>Save</button>
+    </form>
+</div>

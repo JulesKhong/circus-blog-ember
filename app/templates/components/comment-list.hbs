@@ -1,0 +1,6 @@
+<h5>comment-list goes here</h5>
+{{#each entry.comments as |comment|}}
+  <p>{{ comment.userName }}</p>
+  <p>{{ comment.text }}</p>
+  <hr>
+{{/each}}
