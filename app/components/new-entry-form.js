@@ -8,7 +8,7 @@ export default Ember.Component.extend({
         title: this.get('title') ? this.get('title'): "",
         text: this.get('text') ? this.get('text'): "",
         teaser: this.get('teaser') ? this.get('teaser'): "",
-        imgURL: this.get('imgURL') ? this.get('author'): ""
+        imgURL: this.get('imgURL') ? this.get('imgURL'): ""
       };
       this.sendAction('saveEntry', params);
     }
